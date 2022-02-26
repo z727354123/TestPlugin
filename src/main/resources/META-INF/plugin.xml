@@ -2,7 +2,8 @@
     <id>com.fizzkai.MyPlugin2</id>
     <name>MyPlugin</name>
     <vendor email="727354123@yourcompany.com" url="http://www.baidu.com">源码解读网</vendor>
-
+    <!--  兼容2017.1 版本  -->
+    <idea-version since-build="171.0"/>
     <description><![CDATA[
         <h2>标题</h2>
         <p>内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</p>
