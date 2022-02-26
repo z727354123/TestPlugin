@@ -18,5 +18,8 @@
 
     <actions>
         <!-- Add your actions here -->
+        <action id="MyPlugin2.myAction" class="com.fizz.plugin.MyAction" text="提示框" description="提示">
+            <add-to-group group-id="ToolsMenu" anchor="first"/>
+        </action>
     </actions>
 </idea-plugin>
