@@ -9,8 +9,10 @@ public class MyAction extends AnAction {
 
     @Override
     public void actionPerformed(AnActionEvent event) {
-        JBPopup message = JBPopupFactory.getInstance().createMessage("hello World!");
-        message.showInBestPositionFor(event.getDataContext());
-        System.out.println("---");
+
+        Mydialog dialog = new Mydialog();
+        dialog.pack();
+        dialog.setVisible(true);
+
     }
 }

@@ -26,4 +26,9 @@
             <add-to-group group-id="ToolsMenu" anchor="first"/>
         </action>
     </actions>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow id="Sample Calendar" secondary="true" icon="AllIcons.General.Modified" anchor="right"
+                    factoryClass="org.intellij.sdk.toolWindow.MyToolWindowFactory"/>
+    </extensions>
 </idea-plugin>
